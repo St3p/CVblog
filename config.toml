@@ -5,15 +5,15 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "orange"
-  showMenuItems = 2
-  fullWidthTheme = false
-  centerTheme = false
+  themeColor = "green"
+  showMenuItems = 7
+  fullWidthTheme = true
+  centerTheme = true
 
 [languages]
   [languages.en]
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Stephanie Zepeda"
+    subtitle = "Robotics Enthusiast"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -21,15 +21,23 @@ paginate = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "My blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "About me"
+      name = "About me"
+      url = "/about/about"
+    [[languages.en.menu.main]]
+      identifier = "Project"
+      name = "Proyects"
+      url = "/projects"
+    [[languages.en.menu.main]]
+      identifier = "Articles"
+      name = "Articles"
+      url = "/articles"
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "R2D2"
+        name = "R2D2"
+        url = "/R2D2"

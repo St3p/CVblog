@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Stephanie Zepeda</title>
+    <link>https://stepzep.com/projects/</link>
+    <description>Recent content in Projects on Stephanie Zepeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recreation of the movement of a creature</title>
+      <link>https://stepzep.com/projects/simulation-dragon/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/simulation-dragon/</guid>
+      <description>simulation of mechanisms using Solidworks. The Mechanism used to recreate the movement is the slider crank. This Mechanism is one of the most used systems in the mathematical field, it is an arrangement of parts designed to make a rotary straight motion movement as the type of movement that makes a piston engine, so me can define it as one type of four bar linkages which has three revolute joints and one sliding joint.</description>
+      <content>&lt;h2 id=&#34;simulation-of-mechanisms-using-solidworks&#34;&gt;simulation of mechanisms using Solidworks.&lt;/h2&gt;
+&lt;p&gt;The Mechanism used to recreate the movement is
+the slider crank. This Mechanism is one of
+the most used systems in the mathematical field,
+it is an arrangement of parts designed to make
+a rotary straight motion movement as the
+type of movement that makes a piston
+engine, so me can define it as one type of
+four bar linkages which has three revolute
+joints and one sliding joint.&lt;/p&gt;
+&lt;p&gt;The coordinate system to this type of
+mechanism should make the x-axis and the
+slider one coincide, so we can associate a
+vector with each link also we can say that
+the magnitude of this vector is the length of
+the link that is being analyzed, the direction
+of the vector is along the link, so we can
+conclude that the system made a loop.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/drogon2.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/c3KlauMLBrs?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/QbQeNJNagQE?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>Power Supply</title>
+      <link>https://stepzep.com/projects/powersupply/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/powersupply/</guid>
+      <description>material MATERIAL CUANTITY MODEL NUMBERtransformer 1 Central derivative 120V - 24V 2A plug 1 single phase 18 or 20 gaugecable 1 meter two poles 509 - 010breadboard 1 1 block two strips A22N - 1000 VTAbreadboard cable 2 meters AWG 22tip pliers 1 cutting pliers 1clemas 2 small terminals 2 screws TRT - 02clemas 2 small terminals 3 screws TRT - 03diode bridge 1 bridge rectifier KBL-4/200capacitor 2 ceramic 0.</description>
+      <content>&lt;h2 id=&#34;material&#34;&gt;material&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;MATERIAL             CUANTITY       MODEL                         NUMBER
+transformer          1              Central derivative            120V - 24V 2A                                                                 
+plug                 1              single phase                  18 or 20 gauge
+cable                1 meter        two poles                     509 - 010
+breadboard           1              1 block two strips            A22N - 1000 VTA
+breadboard cable     2 meters       AWG 22
+tip pliers           1     
+cutting pliers       1
+clemas               2              small terminals 2 screws      TRT - 02
+clemas               2              small terminals 3 screws      TRT - 03
+diode bridge         1              bridge rectifier              KBL-4/200
+capacitor            2              ceramic                       0.1 uF 50 V
+capacitor            2              Electrolytic                  4700 uF 50 v
+capacitor            1              Electrolytic                  2200 uF 50 V
+capacitor            1              ceramic                       22 uF 50 V
+voltage regulator    1              LM7805             
+voltage regulator    1              LM7812
+voltage regulator    1              LM7912
+voltage regulator    1              LM317
+resistance           1              1/4 Wats                      180 Ohms
+potentiometer        1              5k ohms
+photographic paper   2 sheets         
+phenolic plate       1                                            10 x 10 cm
+ferric chloride     1 bottle       MC100                         900 mL
+plastic tray         1                                            20 X 15 cm
+griddle              1
+drill bits           2             Her200 and Her201              
+drill                1
+black marker         1                                            Sharpie
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;procedure&#34;&gt;Procedure&lt;/h2&gt;
+&lt;p&gt;At first, the circuit was generated in the Livewire simulator to check that it worked properly, as shown in the following image:&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/livewirecircuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;Subsequently, the circuit was generated on the breadboard according to the previously simulated circuit. Once the correct forward voltages were achieved from each of the regulators experimentally, we were able to generate the circuit for printing with Autodesk&amp;rsquo;s Eagle application, as shown below:&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/powersupply-eagle.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;After having arranged the components and wired them so that they do not touch or stick together, we print the circuit on photographic paper. Having already printed the circuit on the photographic paper, it was placed on the phenolic plate and ironed for approximately 30 minutes so that the impression will remain on the phenolic plate. The circuit was immediately marked on the plate with the black Sharpie down, it was started to put it in the plastic tray with 70% ferric chloride and 30% hot water for approximately 20 minutes so that the copper was eliminated in the parts that did not. they connected. After this time, the plate was cleaned with a little thinner so that the pure copper circuit remained on the plate. The result is shown below after following the aforementioned process:&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/pcb.jpg&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;Then, the components were placed in their proper positions according to the simulation that was done in Eagle, the components were soldered and solder was filled in the spaces of the circuit where it was not well reflected to ensure that it would conduct.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/powersupply-solder.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;p&gt;Finally, the board with the components and working properly were put in a plastic box with holes for the respective voltage and potentiometer outputs.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/powersupply-results.jpg&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>Slider Crank</title>
+      <link>https://stepzep.com/projects/slidercrank/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/slidercrank/</guid>
+      <description>Simulation of a slide crank in ADAMS and MATLAB. Slider-cranks are a commonly used type of mechanism translating a rotary movement into a linear one, or the other way around. In this lab session, three slider-crank variations were modelled using ADAMS software. Their movements were simulated and analyzed to find the velocities and position for certain input angles. The obtained results were compared to manual computations using the vector loop equations.</description>
+      <content>&lt;h2 id=&#34;simulation-of-a-slide-crank-in-adams-and-matlab&#34;&gt;Simulation of a slide crank in ADAMS and MATLAB.&lt;/h2&gt;
+&lt;p&gt;Slider-cranks are a commonly used type of mechanism translating a rotary movement
+into a linear one, or the other way around. In this lab session, three slider-crank variations were
+modelled using ADAMS software. Their movements were simulated and analyzed to find the
+velocities and position for certain input angles. The obtained results were compared to manual
+computations using the vector loop equations. With these two outcomes, it was attempted to
+estimate the accuracy of the ADAMS software.&lt;/p&gt;
+&lt;p&gt;The main applications of it can be found in the industry as in the engines powered by
+diesel or gasoline, also this type of mechanism has been used and analyzed over time for their
+advantages as: low cost, few parts, weight and others.
+The coordinate system to this type of mechanism should make the x-axis and the slider
+one coincide, so we can associate a vector with each link also we can say that the magnitude of
+this vector is the length of the link that is being analyzed, the direction of the vector is along the
+link, so we can conclude that the system made a loop&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/sliderADAMS.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;methodology&#34;&gt;Methodology&lt;/h1&gt;
+&lt;p&gt;The slider-crank mechanism element AB rotates at constant speed 0.26 rad/s (15°/s)
+anti-clockwise. Dimensions of elements AB and BC are 120 and 250 mm respectively. To be
+determined is the velocity of the slider when the angle between AB and the ground, ϕ, equals
+45°.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/sliderFBD.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;p&gt;In order to find the velocity of the slider, the mechanism was modelled in ADAMS View.
+The two bars had a width and depth of 8 and 1 respectively, and lengths as indicated in the
+description. The material of the bars was left unspecified. Rotational joints were applied at
+points A, B and C and a translational one between C and the ground. A motion of 15°/s was
+applied at point A. The movement of the mechanism was simulated for 20 seconds with 5000
+steps. After that, the post processor function was used to analyse the movements. To find the
+exact velocity of point C at the desired input angle, first the x value for which ϕ equals 45° had
+to be determined by carefully moving over the graph using the arrow keys in the plot tracking
+function. Subsequently, this x value was checked in the velocity graph to obtain the velocity of
+point C at that moment.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/sliderADAMS2.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;results&#34;&gt;results&lt;/h1&gt;
+&lt;p&gt;For the input angles of 45°, 27,62° and 90° x positions of respectively 1335,80, 1442,52
+and 935 were found.&lt;/p&gt;
+&lt;p&gt;
+  &lt;img src=&#34;https://stepzep.com/img/sliderMatlabGraph.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/sliderMatlabAni.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/u1Ij5A3P2Ss?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;            45°         27,62°      90°
+ADAMS       1335.8      1442.52     953
+Matlab      1341.6812   1442.5087   953.9391
+Percentage
+error       0.44027549  -0.0007834  0.0985414
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Table 1: different values for the x-position of the slider as obtained through ADAMS compared
+to values computed using Matlab&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To verify the results, the computations were repeated using Matlab. Subsequently, the
+percentage error was determined. Two conclusions can be drawn from this comparison: firstly, it
+is evident that the percentage error is rather large, hence the ADAMS software is likely to be
+inaccurate. Secondly however, the differences between the percentage errors are remarkably
+large as well, which is a strong indicator that human mistakes were made: software might make
+mistakes, but will be more or less consistent all the time. Both of these reflections are reasons
+not to attach too much value to the results of this project. More research would be needed to
+figure out where exactly the errors lie, and how the correct results can be found.&lt;/p&gt;
+&lt;p&gt;trinityscsp,(2013),Crank-Piston Mechanism, Grabcad, Retracted from:
+&lt;a href=&#34;https://grabcad.com/library/crank-piston-mechanism-1&#34;&gt;https://grabcad.com/library/crank-piston-mechanism-1&lt;/a&gt;
+Britanica, (n,d),Slider-crank mechanism, Encyclopaedia Britannica, Retracted from:
+&lt;a href=&#34;https://www.britannica.com/technology/slider-crank-mechanism&#34;&gt;https://www.britannica.com/technology/slider-crank-mechanism&lt;/a&gt;
+Bhupesh Chandrakan, Man Mohan Soni, (June 2015 ),Design and Optimization of Slider and
+Crank Mechanism with Multibody Systems, International Journal of Science and Research (IJSR) ,
+Retracted from:
+&lt;a href=&#34;https://pdfs.semanticscholar.org/a998/e2efb7a894d100caf7668056fc3ba3db7447.pdf&#34;&gt;https://pdfs.semanticscholar.org/a998/e2efb7a894d100caf7668056fc3ba3db7447.pdf&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Clock with logic gates</title>
+      <link>https://stepzep.com/projects/clock/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/clock/</guid>
+      <description>12hrs clock using logic gates  The 74LS90 decade counter is a counter that is capable of dividing the frequency each time it is connected with one another, therefore it was used to make it send a signal synchronized with the clock pulse so that the desired account, in addition a 74LS47 decoder was connected for the display outputs.
+ The logic circuits that were used for the construction of the clock were: 74LS90, counter to decades, to count the seconds and minutes; 74LS47, BCD decoder, to decode the counter outputs to outputs for the 7 segment display; 74LS190, synchronous BCD counter, to generate the sequence of the hours (1 to 12); 74LS73, JK flip-flop, to display if it is AM OR PM; 74LS08, 2-input AND; 74LS00, 2-input NAND; finally, 74LS04, NOT.</description>
+      <content>&lt;h2 id=&#34;12hrs-clock-using-logic-gates&#34;&gt;12hrs clock using logic gates&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The 74LS90 decade counter is a counter that is capable of dividing the frequency each time it is connected with one another, therefore it was used to make it send a signal synchronized with the clock pulse so that the desired account, in addition a 74LS47 decoder was connected for the display outputs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The logic circuits that were used for the construction of the clock were: 74LS90, counter to decades, to count the seconds and minutes; 74LS47, BCD decoder, to decode the counter outputs to outputs for the 7 segment display; 74LS190, synchronous BCD counter, to generate the sequence of the hours (1 to 12); 74LS73, JK flip-flop, to display if it is AM OR PM; 74LS08, 2-input AND; 74LS00, 2-input NAND; finally, 74LS04, NOT.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/Circuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>Elevated 4 link mechanism</title>
+      <link>https://stepzep.com/projects/4link/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/4link/</guid>
+      <description>In 1819 the world was going through a transition that nowadays we call the industrial revolution, the challenge in this era was to make the machines simpler, change most of the systems for others more simpler and easier, mechanisms for converting rotary into linear motion were the ones that were investigated the most, and the accuracy of the system to development was important for the machines that were going to be applied in.</description>
+      <content>&lt;p&gt;In 1819 the world was going through a transition that nowadays we call the industrial
+revolution, the challenge in this era was to make the machines simpler, change most of
+the systems for others more simpler and easier, mechanisms for converting rotary into
+linear motion were the ones that were investigated the most, and the accuracy of the
+system to development was important for the machines that were going to be applied in.
+In the middle of all this was James Watt, he developed mechanisms that were
+ingenious and simple, like the Watt linkage, in which the central moving point of the linkage
+is constrained to travel on an approximation to a straight line. Now a days it is used mainly in
+the cars suspension. The most shocking of this idea was that he developed it in a letter to
+Mattew Boulton.&lt;/p&gt;
+&lt;p&gt;#Methodology&lt;/p&gt;
+&lt;p&gt;To simulate the mechanism in fig.1 using solidworks and adams and plot the
+trajectory of point P, for this we have the following measures for each of the links in
+fig. 1:&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/4link.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;pre&gt;&lt;code&gt;L1 249.50     L3 219.04   A 400
+L2 150.205    L4 270      B 237.11
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In adams the simplest way to make the mechanism is using markers for
+reference, while on solidworks we have to make each of the parts separately and then
+unite them in an assembly, for both of them we have make an animation after plotting
+the P plot.&lt;/p&gt;
+&lt;p&gt;#results&lt;/p&gt;
+&lt;p&gt;From the simulation in adams (fig. 3), solidworks (fig. 4), Matlab (fig. 5)
+
+  &lt;img src=&#34;https://stepzep.com/img/4linkSW.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/4linkADAMS.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/4linkMatlab.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/vfScqHwImqc?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>Shift Registrers</title>
+      <link>https://stepzep.com/projects/shiftregistrers/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/shiftregistrers/</guid>
+      <description>Screen Saver: Basic Scroll: The Mouse For the first part, it was decided to use six JK flip flops (74LS76) connecting their outputs to the J inputs and the negated outputs to the K inputs, for the first flip flop a two input OR (74LS32) connected to the output of the last flip flop and to a pulse signal, so that, together with the clock signal connected to all the flip flops, a high signal would be passed through all the flip flops and with the outputs in parallel connect them to the display.</description>
+      <content>&lt;h2 id=&#34;screen-saver-basic-scroll-the-mouse&#34;&gt;Screen Saver: Basic Scroll: The Mouse&lt;/h2&gt;
+&lt;p&gt;For the first part, it was decided to use six JK flip flops (74LS76) connecting their outputs to the J inputs and the negated outputs to the K inputs, for the first flip flop a two input OR (74LS32) connected to the output of the last flip flop and to a pulse signal, so that, together with the clock signal connected to all the flip flops, a high signal would be passed through all the flip flops and with the outputs in parallel connect them to the display.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/mouse.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/mouse-Circuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h2 id=&#34;screen-saver-basic-shift-the-growing-mouse&#34;&gt;Screen Saver: Basic Shift: The Growing Mouse&lt;/h2&gt;
+&lt;p&gt;In part two, we used seven D flip flops (74LS74) connecting their outputs to the D inputs, for the first flip flop a voltage signal was connected to the D input and a two input AND (74LS08) connected to the clock input To the clock signal and to a dip switch to be able to pause the circuit, the negated output of the last flip flop was also connected to the reset of the flip flops so that once the sequence was finished it would restart.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/growingmouse.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/growingmouse-circuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h2 id=&#34;screen-saver-sliding-in-two-displays-the-viper&#34;&gt;Screen Saver: Sliding in two displays: The viper&lt;/h2&gt;
+&lt;p&gt;The third part was made very similar to the first with twelve JK flip flops (74LS76) with the difference that each parallel output was connected to NOR&amp;rsquo;s of five inputs (74LS260) and three inputs (74LS27), later the outputs of the NOR&amp;rsquo;s were connected to NOT&amp;rsquo;s (74LS04), since each segment of the sequence had to remain on for three and four clock times depending on the sequence. As in the second part, the clock input was connected with an AND with two inputs (74LS08) and a dip switch to be able to pause the sequence.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/viper.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/viper-circuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h2 id=&#34;screen-saver-the-ball&#34;&gt;Screen Saver: The Ball&lt;/h2&gt;
+&lt;p&gt;For the last part, it was also very similar to activity 1, nine JK flip flops (74LS76) were used, where each parallel output was connected to four pins of the displays in such a way that the shape of a ball was generated and follow the sequence requested. In the same way, a dip switch was connected to the resets of all the flip flops in order to stop the sequence and restart it.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/ball.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/ball-circuit.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+  </channel>
+</rss>

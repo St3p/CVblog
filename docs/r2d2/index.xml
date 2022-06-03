@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R2D2s on Stephanie Zepeda</title>
+    <link>https://stepzep.com/r2d2/</link>
+    <description>Recent content in R2D2s on Stephanie Zepeda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/r2d2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R2-D2 Arduino Code</title>
+      <link>https://stepzep.com/r2d2/arduino/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/arduino/</guid>
+      <description>#include &amp;lt;SoftwareSerial.h&amp;gt; SoftwareSerial R2D2(10, 11); char DATA = &amp;#39;0&amp;#39;; //Variable for the option choosen by the user is going to save int IZQD = 22; //left foot first motor Aint IZQA = 24; //left foot first motor Bint BIZQD = 26; //left foot second motor Aint BIZQA = 28; //left foot second motor Bint DERD = 30; //right foot first motor Aint DERA = 32; //right foot first motor Bint BDERD = 34; //right foot second motor Aint BDERA = 36; //right foot second motor Bint CABD = 42; //head motor Aint CABA = 44; //head motor Bint CP = 38; //shoulder motor Aint CPA = 40; //shoulder motor Bint LedR = 14; //Red led pinint LedA = 15; //Blue led pinint APieCD = 46; //central feet first motor Aint APieCA = 48; //central feet first motor Bint BPieCD = 50; //central feet second motor Aint BPieCA = 52; //central feet second motor Bvoid setup(){R2D2.</description>
+      <content>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+#include &amp;lt;SoftwareSerial.h&amp;gt;  
+
+SoftwareSerial R2D2(10, 11);  
+char DATA = &amp;#39;0&amp;#39;; //Variable for the option choosen by the user is going to save     
+int IZQD = 22;   //left foot first motor A
+int IZQA = 24;   //left foot first motor B
+int BIZQD = 26;  //left foot second motor A
+int BIZQA = 28;  //left foot second motor B
+int DERD = 30;   //right foot first motor A
+int DERA = 32;   //right foot first motor B
+int BDERD = 34;  //right foot second motor A
+int BDERA = 36;  //right foot second motor B
+int CABD = 42;   //head motor A
+int CABA = 44;   //head motor B
+int CP = 38;     //shoulder motor A
+int CPA = 40;    //shoulder motor B
+int LedR = 14;   //Red led pin
+int LedA = 15;   //Blue led pin
+int APieCD = 46; //central feet first motor A
+int APieCA = 48; //central feet first motor B
+int BPieCD = 50; //central feet second motor A
+int BPieCA = 52; //central feet second motor B
+
+void setup(){
+  R2D2.begin(9600);  
+  pinMode(LedR, OUTPUT);
+  pinMode(LedA, OUTPUT);
+  pinMode(IZQD, OUTPUT);
+  pinMode(IZQA, OUTPUT);
+  pinMode(DERD, OUTPUT);
+  pinMode(DERA, OUTPUT);
+  pinMode(BIZQD, OUTPUT);
+  pinMode(BIZQA, OUTPUT);
+  pinMode(BDERD, OUTPUT);
+  pinMode(BDERA, OUTPUT);
+  pinMode(CABD, OUTPUT);
+  pinMode(CPA, OUTPUT);
+  pinMode(CP, OUTPUT);
+  pinMode(CABA, OUTPUT);
+  pinMode(APieCD, OUTPUT);
+  pinMode(APieCA, OUTPUT);
+  pinMode(BPieCD, OUTPUT);
+  pinMode(BPieCA, OUTPUT);
+}
+
+void loop(){
+
+
+if (R2D2.available())
+  DATA = R2D2.read();                   //stores in DATA de received character.
+
+  if( DATA == &amp;#39;A&amp;#39; ) {                   //forward feet
+      digitalWrite(LedR, LOW);  
+      digitalWrite(IZQD, HIGH);
+      digitalWrite(IZQA, LOW);      
+      digitalWrite(DERD, HIGH);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, HIGH);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, HIGH);
+      digitalWrite(BDERA, LOW);
+      R2D2.println(&amp;#34;Adelante&amp;#34;);
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+}
+
+  if( DATA == &amp;#39;B&amp;#39; )   {                 //back feet
+
+      digitalWrite(LedR, LOW);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, HIGH);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, HIGH);      
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, HIGH);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, HIGH);
+      R2D2.println(F(&amp;#34;Atras&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+}
+if( DATA == &amp;#39;C&amp;#39; )   {              //right feet
+      digitalWrite(LedA, LOW);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(DERD, HIGH);
+      digitalWrite(BDERD, HIGH);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BDERA, LOW);
+      R2D2.println(F(&amp;#34;Derecha&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+    }
+if( DATA == &amp;#39;D&amp;#39; )   {                   //feet left
+      digitalWrite(LedR, LOW);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, HIGH);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, HIGH);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+      R2D2.println(F(&amp;#34;Izquierda&amp;#34;));
+      delay (100);
+            digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+
+    }
+
+    if( DATA == &amp;#39;E&amp;#39; )   {                //head left
+
+   digitalWrite(LedR, LOW);
+
+      digitalWrite(CABD, LOW);
+      digitalWrite(CABA, HIGH);    
+      R2D2.println(F(&amp;#34;Cab Izq&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+
+      digitalWrite(CABD, LOW);
+      digitalWrite(CABA, LOW);
+ }
+
+    if( DATA == &amp;#39;F&amp;#39; )   {           //head right
+digitalWrite(LedR, LOW);
+
+      digitalWrite(CABD, HIGH);
+      digitalWrite(CABA, LOW);
+      R2D2.println(F(&amp;#34; Cab Der&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(CABD, LOW);
+      digitalWrite(CABA, LOW);
+    }
+    if( DATA == &amp;#39;G&amp;#39; )   {            //Central feet up
+
+      digitalWrite(LedA, LOW);
+      digitalWrite(APieCD, HIGH);
+      digitalWrite(APieCA, LOW);
+      digitalWrite(BPieCD, HIGH);
+      digitalWrite(BPieCA, LOW);
+      R2D2.println(F(&amp;#34;Pie Central Arriba&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(1000);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(APieCD, LOW);
+      digitalWrite(APieCA, LOW);
+      digitalWrite(BPieCD, LOW);
+      digitalWrite(BPieCA, LOW);
+
+    }
+
+     if( DATA == &amp;#39;H&amp;#39; )   {        //central feet down
+ digitalWrite(LedR, LOW);
+
+      digitalWrite(APieCD, LOW);
+      digitalWrite(APieCA, HIGH);
+      digitalWrite(BPieCD, LOW);
+      digitalWrite(BPieCA, HIGH);
+      R2D2.println(F(&amp;#34;Pie Central Abajo&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(1000);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(APieCD, LOW);
+      digitalWrite(APieCA, LOW);
+      digitalWrite(BPieCD, LOW);
+      digitalWrite(BPieCA, LOW);
+    }
+    if( DATA == &amp;#39;I&amp;#39; )   {         //shoulder up
+  digitalWrite(LedR, LOW);
+
+      digitalWrite(CP, HIGH);
+      digitalWrite(CPA, LOW);
+      R2D2.println(F(&amp;#34;HOMBRO ARRIBA&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(CP, LOW);
+      digitalWrite(CPA, LOW);
+    }
+    if( DATA == &amp;#39;J&amp;#39; )   {             //shoulder down
+
+      digitalWrite(LedR, LOW);
+      digitalWrite(CP, LOW);
+      digitalWrite(CPA, HIGH);
+      R2D2.println(F(&amp;#34;HOMBRO ABAJO&amp;#34;));
+      digitalWrite(LedA, HIGH);
+      delay(100);
+      digitalWrite(LedA, LOW);
+      digitalWrite(LedR, HIGH);
+      digitalWrite(CP, LOW);
+      digitalWrite(CPA, LOW);
+    }
+    if (DATA == &amp;#39;K&amp;#39;)                 //stops all the system
+  {
+      digitalWrite(IZQD, LOW);
+      digitalWrite(IZQA, LOW);
+      digitalWrite(DERD, LOW);
+      digitalWrite(DERA, LOW);
+      digitalWrite(BIZQD, LOW);
+      digitalWrite(BIZQA, LOW);
+      digitalWrite(BDERD, LOW);
+      digitalWrite(BDERA, LOW);
+      digitalWrite(CABD, LOW);
+      digitalWrite(CABA, LOW);
+      digitalWrite(APieCD, LOW);
+      digitalWrite(APieCA, LOW);
+      digitalWrite(BPieCD, LOW);
+      digitalWrite(BPieCA, LOW);      
+      digitalWrite(CPA, LOW);
+      digitalWrite(CPA, LOW);
+
+  }
+    if (DATA == &amp;#39;Z&amp;#39;)            //main menu
+ {
+  R2D2.println();
+  R2D2.println();
+  R2D2.println(&amp;#34;==================================================================================================================================&amp;#34;);
+  R2D2.println(&amp;#34; [A] Forward&amp;#34;);
+  R2D2.println(&amp;#34; [B] backwards&amp;#34;);
+  R2D2.println(&amp;#34; [C] Right&amp;#34;);
+  R2D2.println(&amp;#34; [D] Left&amp;#34;);
+  R2D2.println(&amp;#34; [E] Head Left&amp;#34;);
+  R2D2.println(&amp;#34; [F] Head Right&amp;#34;);
+  R2D2.println(&amp;#34; [G] Central Feet Up&amp;#34;);
+  R2D2.println(&amp;#34; [H] Central Feet Down&amp;#34;);
+  R2D2.println(&amp;#34; [I] Shoulder Up&amp;#34;);
+  R2D2.println(&amp;#34; [J] Shoulder Down&amp;#34;);
+  R2D2.println(&amp;#34; [K] Stop&amp;#34;);
+  R2D2.println(&amp;#34; [Z] Menu&amp;#34;);
+  R2D2.println();
+  R2D2.println(&amp;#34;=================================================================================================================================&amp;#34;);
+
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
+    <item>
+      <title>R2-D2 Assemble</title>
+      <link>https://stepzep.com/r2d2/assemble/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/assemble/</guid>
+      <description>Head mechanism   Center leg   Shoulder   Foot   </description>
+      <content>&lt;h1 id=&#34;head-mechanism&#34;&gt;Head mechanism&lt;/h1&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/vOZ99ObCF2w?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;center-leg&#34;&gt;Center leg&lt;/h1&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/o6a2He_KXXc?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;shoulder&#34;&gt;Shoulder&lt;/h1&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/gzSLBASH4Io?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;foot&#34;&gt;Foot&lt;/h1&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/5Z0LixiRYLY?autoplay=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>R2-D2 Circuit</title>
+      <link>https://stepzep.com/r2d2/circuits/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/circuits/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>R2-D2 Final touches</title>
+      <link>https://stepzep.com/r2d2/final/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/final/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>R2-D2 Hardware</title>
+      <link>https://stepzep.com/r2d2/hardware/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/hardware/</guid>
+      <description>Arduino Mega Bluetooth DC Motors x 8  4 Feet two for each foot. 2 Center foot sistem. 1 Shoulder. 1 Head.  H-Bridge x 4  2 Foot Motors. 1 Center foot. 1 Head and shoulder.  Led´s X 36  24 Small front panel (green, blue and white) 8 Large front panel (green, blue and white) 2 red display 2 blue display  9v Baterries x 2 Switch </description>
+      <content>&lt;h1 id=&#34;arduino-mega&#34;&gt;Arduino Mega&lt;/h1&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/arduinoMega.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;bluetooth&#34;&gt;Bluetooth&lt;/h1&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/hc05.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;dc-motors-x-8&#34;&gt;DC Motors x 8&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;4 Feet two for each foot.&lt;/li&gt;
+&lt;li&gt;2 Center foot sistem.&lt;/li&gt;
+&lt;li&gt;1 Shoulder.&lt;/li&gt;
+&lt;li&gt;1 Head.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/DCMotors.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;h-bridge-x-4&#34;&gt;H-Bridge x 4&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;2 Foot Motors.&lt;/li&gt;
+&lt;li&gt;1 Center foot.&lt;/li&gt;
+&lt;li&gt;1 Head and shoulder.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/hbridge.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;leds-x-36&#34;&gt;Led´s X 36&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;24 Small front panel (green, blue and white)&lt;/li&gt;
+&lt;li&gt;8 Large front panel (green, blue and white)&lt;/li&gt;
+&lt;li&gt;2 red display&lt;/li&gt;
+&lt;li&gt;2 blue display&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/LED.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;9v-baterries-x-2&#34;&gt;9v Baterries x 2&lt;/h1&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/9vbat.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;switch&#34;&gt;Switch&lt;/h1&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/switch.jpg&#34;  class=&#34;left&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>R2-D2 Solidworks Design</title>
+      <link>https://stepzep.com/r2d2/solidworks/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/solidworks/</guid>
+      <description>Frame The design was made taking into account the multiple vents and panels of the robot seen on the films, so in a future it could have space to accommodate little systems for their movement. The measurements took into account to make the frame where taken from the website wwww.astromech.com
+Head mechanism The operation of this mechanism is simple it consist on a motor in the center of the head which gives action to a axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the from and the base of the head.</description>
+      <content>&lt;h1 id=&#34;frame&#34;&gt;Frame&lt;/h1&gt;
+&lt;p&gt;The design was made taking into account the multiple vents and panels of the robot seen on the films, so in a future it could have space to accommodate little systems for their movement. The measurements took into account to make the frame where taken from the website wwww.astromech.com&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/frame.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h1 id=&#34;head-mechanism&#34;&gt;Head mechanism&lt;/h1&gt;
+&lt;p&gt;The operation of this mechanism is simple it consist on a motor in the center of the head which gives action to a axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the from and the base of the head.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/head.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+&lt;h1 id=&#34;center-leg&#34;&gt;Center leg&lt;/h1&gt;
+&lt;p&gt;Simple scissor mechanism for the center leg to come up or down.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/centerfeet.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;foot&#34;&gt;Foot&lt;/h1&gt;
+&lt;p&gt;System of gears to give the system more torque and pull force.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/foot.png&#34;  class=&#34;left&#34;  /&gt;
+
+
+&lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/r2d2100.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stepzep.com/r2d2/r2d2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/r2d2/r2d2/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
