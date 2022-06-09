@@ -6,7 +6,30 @@
     <description>Recent content on Stephanie Zepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Ladder Logic Based on Problems</title>
+      <link>https://stepzep.com/projects/plc/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/plc/</guid>
+      <description>An automotive air bag inflator cup is loaded into the part nest of the press machine. the operator places a &amp;lsquo;cap&amp;rsquo; over the inflator cup, then presses a star button (PB1). The part is then &amp;ldquo;clamped&amp;rdquo; in the nest by a double acting cylinder to secure it. Once clamped (PX1), a light turns on (LT1) indicating the part is ready to be pressed. once clamped (LT1), the operator then presses 2 pushbuttons simultaneously (PB2 &amp;amp; PB3) to advance the press cylinder.</description>
+      <content>&lt;p&gt;An automotive air bag inflator cup is loaded into the part nest of the press machine. the operator places a &amp;lsquo;cap&amp;rsquo; over the inflator cup, then presses a star button (PB1). The part is then &amp;ldquo;clamped&amp;rdquo; in the nest by a double acting cylinder to secure it. Once clamped (PX1), a light turns on (LT1) indicating the part is ready to be pressed. once clamped (LT1), the operator then presses 2 pushbuttons simultaneously (PB2 &amp;amp; PB3) to advance the press cylinder. The single acting press cylinder moves forward very slowly and hold its pressed condition for 3 seconds when cylinder moves forward position (PX2). Once 3 seconds have elapsed, the press cylinder automatically returns, and the clamp cylinder unclamps the part once the operator releases either control button. the BCD light counter (LT2-4) will increment by 1. when the counter has updated and the operator has released both buttons, the operator can then press another part. after 7 parts have been counted, and the operator has released both PB&amp;rsquo;s, the counter must reset to &amp;ldquo;0&amp;rdquo;.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/plc1.png&#34;  alt=&#34;Clamp and Press Machine Tag List&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/plc2.png&#34;  alt=&#34;Clamp and Press Machine Pneumatic Schematic&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/plc3.png&#34;  alt=&#34;Clamp and Press Machine Electrical Schematic&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
     <item>
       <title>Machining a Dice on a conventional milling machine</title>
       <link>https://stepzep.com/projects/machi/</link>
