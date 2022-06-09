@@ -5,3 +5,5 @@ author: "Stephanie Zepeda"
 cover: "img/R2D2-HeadPaint.jpeg"
 description: " "
 ---
+
+{{< image src="/img/r2d2-final" >}}

@@ -3,7 +3,7 @@ title: "Power Supply"
 date: "2019-06-28"
 author: "Stephanie Zepeda"
 cover: "img/powersupply.jpg"
-description: "Construction of a power supply with 5v, 12v and -12v output. Using protoboards to check the operation of the circuit to later make a printed circuit using Autodesk's Eagle program."
+description: "Creation of a power supply with 5v, 12v and -12v output. Using protoboards to check the operation of the circuit to later make a printed circuit using Autodesk's Eagle program."
 ---
 
 ## material

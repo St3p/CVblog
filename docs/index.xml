@@ -6,7 +6,34 @@
     <description>Recent content on Stephanie Zepeda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machining a Dice on a conventional milling machine</title>
+      <link>https://stepzep.com/projects/machi/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://stepzep.com/projects/machi/</guid>
+      <description>In the class of Machining at Fanshawe, I was tasked to machine this little dice and its stand with the specified measurements.</description>
+      <content>&lt;p&gt;In the class of Machining at Fanshawe, I was tasked to machine this little dice and its stand with the specified measurements.&lt;/p&gt;
+
+  &lt;img src=&#34;https://stepzep.com/img/diceP1.jfif&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/diceP2.jfif&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/diceP3.jfif&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+
+  &lt;img src=&#34;https://stepzep.com/img/diceP4.jfif&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+
+
+</content>
+    </item>
+    
     <item>
       <title>raspberry pi</title>
       <link>https://stepzep.com/articles/raspberrypi/</link>
@@ -1552,23 +1579,17 @@ digitalWrite(LedR, LOW);
     </item>
     
     <item>
-      <title>R2-D2 Circuit</title>
-      <link>https://stepzep.com/r2d2/circuits/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stepzep.com/r2d2/circuits/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
       <title>R2-D2 Final touches</title>
       <link>https://stepzep.com/r2d2/final/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stepzep.com/r2d2/final/</guid>
-      <description></description>
-      <content></content>
+      <description> </description>
+      <content>
+  &lt;img src=&#34;https://stepzep.com/img/r2d2-final&#34;  class=&#34;left&#34;  /&gt;
+
+
+</content>
     </item>
     
     <item>
@@ -1639,35 +1660,35 @@ digitalWrite(LedR, LOW);
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stepzep.com/r2d2/solidworks/</guid>
-      <description>Frame The design was made taking into account the multiple vents and panels of the robot seen on the films, so in a future it could have space to accommodate little systems for their movement. The measurements took into account to make the frame where taken from the website wwww.astromech.com
-Head mechanism The operation of this mechanism is simple it consist on a motor in the center of the head which gives action to a axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the from and the base of the head.</description>
+      <description>Frame This design was made taking into account the multiple vents and panels of the robot as seen in the films, so in the future it could have the space to accommodate little systems for their movement. The measurements took into account to make the frame were taken from the website wwww.astromech.com, and is a 1:2 replication of R2D2.
+Head mechanism The operation of this mechanism is simple, as it consists of a motor in the center of the head which gives action to an axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the front and the base of the head.</description>
       <content>&lt;h1 id=&#34;frame&#34;&gt;Frame&lt;/h1&gt;
-&lt;p&gt;The design was made taking into account the multiple vents and panels of the robot seen on the films, so in a future it could have space to accommodate little systems for their movement. The measurements took into account to make the frame where taken from the website wwww.astromech.com&lt;/p&gt;
+&lt;p&gt;This design was made taking into account the multiple vents and panels of the robot as seen in the films, so in the future it could have the space to accommodate little systems for their movement. The measurements took into account to make the frame were taken from the website wwww.astromech.com, and is a 1:2 replication of R2D2.&lt;/p&gt;
 
   &lt;img src=&#34;https://stepzep.com/img/frame.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
 
 
 &lt;h1 id=&#34;head-mechanism&#34;&gt;Head mechanism&lt;/h1&gt;
-&lt;p&gt;The operation of this mechanism is simple it consist on a motor in the center of the head which gives action to a axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the from and the base of the head.&lt;/p&gt;
+&lt;p&gt;The operation of this mechanism is simple, as it consists of a motor in the center of the head which gives action to an axial gear that moves smoothly thanks to the help of a lazy Susan that is attached to the front and the base of the head.&lt;/p&gt;
 
   &lt;img src=&#34;https://stepzep.com/img/head.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
 
 
 &lt;h1 id=&#34;center-leg&#34;&gt;Center leg&lt;/h1&gt;
-&lt;p&gt;Simple scissor mechanism for the center leg to come up or down.&lt;/p&gt;
+&lt;p&gt;Simple scissor mechanism for the center leg to move up or down.&lt;/p&gt;
 
   &lt;img src=&#34;https://stepzep.com/img/centerfeet.png&#34;  class=&#34;left&#34;  /&gt;
 
 
 &lt;h1 id=&#34;foot&#34;&gt;Foot&lt;/h1&gt;
-&lt;p&gt;System of gears to give the system more torque and pull force.&lt;/p&gt;
+&lt;p&gt;System of gears to provide the system with more torque and pull force.&lt;/p&gt;
 
   &lt;img src=&#34;https://stepzep.com/img/foot.png&#34;  class=&#34;left&#34;  /&gt;
 
 
 &lt;h1 id=&#34;results&#34;&gt;Results&lt;/h1&gt;
 
-  &lt;img src=&#34;https://stepzep.com/img/r2d2100.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
+  &lt;img src=&#34;https://stepzep.com/img/MiniR2D2.png&#34;  alt=&#34;Circuit&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;
 
 
 </content>
@@ -1722,25 +1743,11 @@ conclude that the system made a loop.&lt;/p&gt;
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stepzep.com/projects/simulation-dragon/</guid>
-      <description>simulation of mechanisms using Solidworks. The Mechanism used to recreate the movement is the slider crank. This Mechanism is one of the most used systems in the mathematical field, it is an arrangement of parts designed to make a rotary straight motion movement as the type of movement that makes a piston engine, so me can define it as one type of four bar linkages which has three revolute joints and one sliding joint.</description>
+      <description>simulation of mechanisms using Solidworks. This Mechanism is one of the most used systems in the field of mathematics. It&amp;rsquo;s an arrangement of parts designed to make a rotary straight motion movement, these are most commonly found inside of engines. So, we can define it as one type of four bar linkages which has three revolute joints and one sliding joint.
+The coordinate system to this type of mechanism should make the x-axis and the slider one coincide, so we can associate a vector with each link also we can say that the magnitude of this vector is the length of the link that is being analyzed, the direction of the vector is along the link, so we can conclude that the system made a loop.</description>
       <content>&lt;h2 id=&#34;simulation-of-mechanisms-using-solidworks&#34;&gt;simulation of mechanisms using Solidworks.&lt;/h2&gt;
-&lt;p&gt;The Mechanism used to recreate the movement is
-the slider crank. This Mechanism is one of
-the most used systems in the mathematical field,
-it is an arrangement of parts designed to make
-a rotary straight motion movement as the
-type of movement that makes a piston
-engine, so me can define it as one type of
-four bar linkages which has three revolute
-joints and one sliding joint.&lt;/p&gt;
-&lt;p&gt;The coordinate system to this type of
-mechanism should make the x-axis and the
-slider one coincide, so we can associate a
-vector with each link also we can say that
-the magnitude of this vector is the length of
-the link that is being analyzed, the direction
-of the vector is along the link, so we can
-conclude that the system made a loop.&lt;/p&gt;
+&lt;p&gt;This Mechanism is one of the most used systems in the field of mathematics. It&amp;rsquo;s an arrangement of parts designed to make a rotary straight motion movement, these are most commonly found inside of engines. So, we can define it as one type of four bar linkages which has three revolute joints and one sliding joint.&lt;/p&gt;
+&lt;p&gt;The coordinate system to this type of mechanism should make the x-axis and the slider one coincide, so we can associate a vector with each link also we can say that the magnitude of this vector is the length of the link that is being analyzed, the direction of the vector is along the link, so we can conclude that the system made a loop.&lt;/p&gt;
 
   &lt;img src=&#34;https://stepzep.com/img/drogon2.png&#34;  class=&#34;left&#34;  /&gt;
 
@@ -2442,16 +2449,6 @@ My goal is to become a professional as complete as possible, with skills beyond 
 &lt;p&gt;My goal is to become a professional as complete as possible, with skills beyond the practical application of the knowledge acquired in the career and technical diploma.
 If you are interested in knowing more about my projects, do not hesitate to ask.&lt;/p&gt;
 </content>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://stepzep.com/r2d2/r2d2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://stepzep.com/r2d2/r2d2/</guid>
-      <description></description>
-      <content></content>
     </item>
     
   </channel>

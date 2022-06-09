@@ -3,7 +3,7 @@ title: "Clock with logic gates"
 date: "2019-04-10"
 author: "Stephanie Zepeda"
 cover: "img/12hrs-clock.png"
-description: "Designing of a sequential circuit with counters, which would have the function of a 12-hour clock, where it would have an output that will indicate PM or AM, the clock could be started at any time and it could be reset."
+description: "The design of a sequential circuit with counters, which would have the function of a 12-hour clock. It would have an output that will indicate PM or AM, the clock could be started at anytime, and it could be reset."
 ---
 
 ## 12hrs clock using logic gates
