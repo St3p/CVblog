@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stepzep.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Ladder Logic Based on Problems</title>
-      <link>https://stepzep.com/projects/plc/</link>
+      <link>https://stepzep.com/proyects/plc/</link>
       <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/plc/</guid>
+      <guid>https://stepzep.com/proyects/plc/</guid>
       <description>An automotive air bag inflator cup is loaded into the part nest of the press machine. the operator places a &amp;lsquo;cap&amp;rsquo; over the inflator cup, then presses a star button (PB1). The part is then &amp;ldquo;clamped&amp;rdquo; in the nest by a double acting cylinder to secure it. Once clamped (PX1), a light turns on (LT1) indicating the part is ready to be pressed. once clamped (LT1), the operator then presses 2 pushbuttons simultaneously (PB2 &amp;amp; PB3) to advance the press cylinder.</description>
       <content>&lt;p&gt;An automotive air bag inflator cup is loaded into the part nest of the press machine. the operator places a &amp;lsquo;cap&amp;rsquo; over the inflator cup, then presses a star button (PB1). The part is then &amp;ldquo;clamped&amp;rdquo; in the nest by a double acting cylinder to secure it. Once clamped (PX1), a light turns on (LT1) indicating the part is ready to be pressed. once clamped (LT1), the operator then presses 2 pushbuttons simultaneously (PB2 &amp;amp; PB3) to advance the press cylinder. The single acting press cylinder moves forward very slowly and hold its pressed condition for 3 seconds when cylinder moves forward position (PX2). Once 3 seconds have elapsed, the press cylinder automatically returns, and the clamp cylinder unclamps the part once the operator releases either control button. the BCD light counter (LT2-4) will increment by 1. when the counter has updated and the operator has released both buttons, the operator can then press another part. after 7 parts have been counted, and the operator has released both PB&amp;rsquo;s, the counter must reset to &amp;ldquo;0&amp;rdquo;.&lt;/p&gt;
 
@@ -32,10 +32,10 @@
     
     <item>
       <title>Machining a Dice on a conventional milling machine</title>
-      <link>https://stepzep.com/projects/machi/</link>
+      <link>https://stepzep.com/proyects/machi/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/machi/</guid>
+      <guid>https://stepzep.com/proyects/machi/</guid>
       <description>In the class of Machining at Fanshawe, I was tasked to machine this little dice and its stand with the specified measurements.</description>
       <content>&lt;p&gt;In the class of Machining at Fanshawe, I was tasked to machine this little dice and its stand with the specified measurements.&lt;/p&gt;
 
@@ -1762,10 +1762,10 @@ conclude that the system made a loop.&lt;/p&gt;
     
     <item>
       <title>Recreation of the movement of a creature</title>
-      <link>https://stepzep.com/projects/simulation-dragon/</link>
+      <link>https://stepzep.com/proyects/simulation-dragon/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/simulation-dragon/</guid>
+      <guid>https://stepzep.com/proyects/simulation-dragon/</guid>
       <description>simulation of mechanisms using Solidworks. This Mechanism is one of the most used systems in the field of mathematics. It&amp;rsquo;s an arrangement of parts designed to make a rotary straight motion movement, these are most commonly found inside of engines. So, we can define it as one type of four bar linkages which has three revolute joints and one sliding joint.
 The coordinate system to this type of mechanism should make the x-axis and the slider one coincide, so we can associate a vector with each link also we can say that the magnitude of this vector is the length of the link that is being analyzed, the direction of the vector is along the link, so we can conclude that the system made a loop.</description>
       <content>&lt;h2 id=&#34;simulation-of-mechanisms-using-solidworks&#34;&gt;simulation of mechanisms using Solidworks.&lt;/h2&gt;
@@ -1858,10 +1858,10 @@ black marker         1                                            Sharpie
     
     <item>
       <title>Power Supply</title>
-      <link>https://stepzep.com/projects/powersupply/</link>
+      <link>https://stepzep.com/proyects/powersupply/</link>
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/powersupply/</guid>
+      <guid>https://stepzep.com/proyects/powersupply/</guid>
       <description>material MATERIAL CUANTITY MODEL NUMBERtransformer 1 Central derivative 120V - 24V 2A plug 1 single phase 18 or 20 gaugecable 1 meter two poles 509 - 010breadboard 1 1 block two strips A22N - 1000 VTAbreadboard cable 2 meters AWG 22tip pliers 1 cutting pliers 1clemas 2 small terminals 2 screws TRT - 02clemas 2 small terminals 3 screws TRT - 03diode bridge 1 bridge rectifier KBL-4/200capacitor 2 ceramic 0.</description>
       <content>&lt;h2 id=&#34;material&#34;&gt;material&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;MATERIAL             CUANTITY       MODEL                         NUMBER
@@ -2018,10 +2018,10 @@ Retracted from:
     
     <item>
       <title>Slider Crank</title>
-      <link>https://stepzep.com/projects/slidercrank/</link>
+      <link>https://stepzep.com/proyects/slidercrank/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/slidercrank/</guid>
+      <guid>https://stepzep.com/proyects/slidercrank/</guid>
       <description>Simulation of a slide crank in ADAMS and MATLAB. Slider-cranks are a commonly used type of mechanism translating a rotary movement into a linear one, or the other way around. In this lab session, three slider-crank variations were modelled using ADAMS software. Their movements were simulated and analyzed to find the velocities and position for certain input angles. The obtained results were compared to manual computations using the vector loop equations.</description>
       <content>&lt;h2 id=&#34;simulation-of-a-slide-crank-in-adams-and-matlab&#34;&gt;Simulation of a slide crank in ADAMS and MATLAB.&lt;/h2&gt;
 &lt;p&gt;Slider-cranks are a commonly used type of mechanism translating a rotary movement
@@ -2131,10 +2131,10 @@ Retracted from:
     
     <item>
       <title>Clock with logic gates</title>
-      <link>https://stepzep.com/projects/clock/</link>
+      <link>https://stepzep.com/proyects/clock/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/clock/</guid>
+      <guid>https://stepzep.com/proyects/clock/</guid>
       <description>12hrs clock using logic gates  The 74LS90 decade counter is a counter that is capable of dividing the frequency each time it is connected with one another, therefore it was used to make it send a signal synchronized with the clock pulse so that the desired account, in addition a 74LS47 decoder was connected for the display outputs.
  The logic circuits that were used for the construction of the clock were: 74LS90, counter to decades, to count the seconds and minutes; 74LS47, BCD decoder, to decode the counter outputs to outputs for the 7 segment display; 74LS190, synchronous BCD counter, to generate the sequence of the hours (1 to 12); 74LS73, JK flip-flop, to display if it is AM OR PM; 74LS08, 2-input AND; 74LS00, 2-input NAND; finally, 74LS04, NOT.</description>
       <content>&lt;h2 id=&#34;12hrs-clock-using-logic-gates&#34;&gt;12hrs clock using logic gates&lt;/h2&gt;
@@ -2205,10 +2205,10 @@ the P plot.&lt;/p&gt;
     
     <item>
       <title>Elevated 4 link mechanism</title>
-      <link>https://stepzep.com/projects/4link/</link>
+      <link>https://stepzep.com/proyects/4link/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/4link/</guid>
+      <guid>https://stepzep.com/proyects/4link/</guid>
       <description>In 1819 the world was going through a transition that nowadays we call the industrial revolution, the challenge in this era was to make the machines simpler, change most of the systems for others more simpler and easier, mechanisms for converting rotary into linear motion were the ones that were investigated the most, and the accuracy of the system to development was important for the machines that were going to be applied in.</description>
       <content>&lt;p&gt;In 1819 the world was going through a transition that nowadays we call the industrial
 revolution, the challenge in this era was to make the machines simpler, change most of
@@ -2309,10 +2309,10 @@ the P plot.&lt;/p&gt;
     
     <item>
       <title>Shift Registrers</title>
-      <link>https://stepzep.com/projects/shiftregistrers/</link>
+      <link>https://stepzep.com/proyects/shiftregistrers/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stepzep.com/projects/shiftregistrers/</guid>
+      <guid>https://stepzep.com/proyects/shiftregistrers/</guid>
       <description>Screen Saver: Basic Scroll: The Mouse For the first part, it was decided to use six JK flip flops (74LS76) connecting their outputs to the J inputs and the negated outputs to the K inputs, for the first flip flop a two input OR (74LS32) connected to the output of the last flip flop and to a pulse signal, so that, together with the clock signal connected to all the flip flops, a high signal would be passed through all the flip flops and with the outputs in parallel connect them to the display.</description>
       <content>&lt;h2 id=&#34;screen-saver-basic-scroll-the-mouse&#34;&gt;Screen Saver: Basic Scroll: The Mouse&lt;/h2&gt;
 &lt;p&gt;For the first part, it was decided to use six JK flip flops (74LS76) connecting their outputs to the J inputs and the negated outputs to the K inputs, for the first flip flop a two input OR (74LS32) connected to the output of the last flip flop and to a pulse signal, so that, together with the clock signal connected to all the flip flops, a high signal would be passed through all the flip flops and with the outputs in parallel connect them to the display.&lt;/p&gt;
